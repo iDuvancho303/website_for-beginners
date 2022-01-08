@@ -4,6 +4,8 @@
     font-family: "Booter - Zero Zero";
     src: url(/fonts/Booter\ -\ Zero\ Zero.woff) format("woff"),
          url(/fonts/Booter\ -\ Zero\ Zero.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
 }
 * {
     box-sizing: border-box;
@@ -61,4 +63,10 @@ html, body {
     margin: 0;
     font-size: 4em;
     font-family: "Booter - Zero Zero";
+    color: white;
+    font-weight: normal;
+}
+
+.band-name-large {
+    font-size: 8em;
 }
