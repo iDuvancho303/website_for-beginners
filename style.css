@@ -38,6 +38,10 @@ html, body {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
+.main-nav li {
+    padding: 0 3%;
+}
+
 .main-header {
     background-color: rgba(0, 0, 0, .6);
     background-image: url(./images/Header-Background.jpg);
@@ -45,4 +49,11 @@ html, body {
     background-size: cover;
     padding-bottom: 30px;
     background-position: center;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: ;
 }
