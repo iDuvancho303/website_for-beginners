@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url(/fonts/Booter\ -\ Zero\ Zero.woff) format("woff"),
+         url(/fonts/Booter\ -\ Zero\ Zero.woff2) format("woff2");
+}
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -55,5 +60,5 @@ html, body {
     text-align: center;
     margin: 0;
     font-size: 4em;
-    font-family: ;
+    font-family: "Booter - Zero Zero";
 }
