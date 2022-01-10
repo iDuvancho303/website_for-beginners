@@ -63,7 +63,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 5em;
     font-family: "Booter - Zero Zero";
     color: white;
     font-weight: normal;
@@ -97,4 +97,50 @@ html, body {
     width: 300px;
     margin: 15px;
     border-radius: 50%;
+}
+
+.main-footer {
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav a  {
+    /*font-size: 20px;*/
+    color: white;
+}
+
+#profile-link {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-github-square {
+    color: #171515;
+    font-size: 30px;
+}
+
+.fa-twitter-square {
+    color: #56ccf2;
+    font-size: 30px;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+    font-size: 30px;
 }
