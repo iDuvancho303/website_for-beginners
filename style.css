@@ -70,3 +70,13 @@ html, body {
 .band-name-large {
     font-size: 8em;
 }
+
+.content-section {
+    margin: 2em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
