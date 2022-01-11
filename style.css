@@ -253,3 +253,9 @@ html, body {
     flex-grow: 1;
     color: #333;
 }
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
