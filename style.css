@@ -235,5 +235,14 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;-
+}
 
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
 }
