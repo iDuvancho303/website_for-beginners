@@ -165,3 +165,18 @@ html, body {
 .btn-header:hover {
     background-color: rgba(255, 255, 255, .3);
 }
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 1em;
+    border-radius: 50%;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    
+}
