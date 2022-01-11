@@ -18,6 +18,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 .nav ul {
@@ -36,19 +37,19 @@ html, body {
     font-weight: bold;
 }
 
-.nav a:hover {
-    background-color: rgba(255, 255, 255, .3);
-}
-
 .main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .main-nav li {
-    padding: 0 3%;
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
 }
 
 .main-header {
@@ -63,7 +64,7 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 5em;
+    font-size: 4em;
     font-family: "Booter - Zero Zero";
     color: white;
     font-weight: normal;
@@ -147,19 +148,21 @@ html, body {
 
 .btn {
     text-align: center;
-    vertical-align: center;
-    padding: .37em;
+    vertical-align: middle;
+    padding: .67em;
     cursor: pointer;
 }
 
 .btn-header {
     margin: .5em 15% 2em 15%;
     color: white;
-    border: 2px solid #2d9cdb;
+    border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0;
-    font-size: 1em;
-    font-weight: ligther;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .btn-header:hover {
@@ -170,8 +173,11 @@ html, body {
     display: block;
     margin: 0 auto;
     color: #2d9cdb;
-    font-size: 1em;
+    font-size: 2em;
     border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
 }
 
 .tour-row {
