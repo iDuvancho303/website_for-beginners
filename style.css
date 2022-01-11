@@ -245,4 +245,11 @@ html, body {
 
 .shop-item-details {
     display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
 }
